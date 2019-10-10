@@ -14,9 +14,9 @@ def SearchingText():
        
 def tag_visible(element):
     if element.parent.name in [title', '[document]']:
-        return False
+       return False
     if isinstance(element, Comment):
-        return False
+       return False
     return True
 
 
